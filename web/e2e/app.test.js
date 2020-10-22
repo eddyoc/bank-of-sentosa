@@ -19,7 +19,7 @@ import {
   adjustForXR,
 } from './utils';
 
-const timeout = 10000;
+const timeout = 15000;
 const domain = 'http://localhost:3000';
 const headless = false;
 
