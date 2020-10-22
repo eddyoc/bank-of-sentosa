@@ -1,0 +1,44 @@
+@import 'scss/master';
+
+.list-header {
+  margin-left: 1.25em;
+}
+
+.transactions-grid {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+  thead {
+    tr {
+      background-color: $primary;
+      color: white;
+      text-align: left;
+    }
+  }
+
+  tbody {
+    tr {
+      background-color: #fff;
+      border-bottom: 1px solid #dddddd;
+      &:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+      &:last-of-type {
+        border-bottom: 2px solid $primary;
+      }
+      color: $text-color;
+      height: 5em;
+    }
+  }
+
+  th, td {
+    padding: 12px 15px;
+  }
+}
+
+
+

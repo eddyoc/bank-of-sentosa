@@ -1,0 +1,25 @@
+.login-container {
+  width: 100%;
+  background-color: pink;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("/background-1440x800.jpg");
+  background-size: cover;
+  background-position: center;
+
+  .login-box-container {
+    padding-top: 100px;
+  }
+
+  .logo {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+
+    p {
+      font-size: 42px;
+      color: white;
+    }
+  }
+}

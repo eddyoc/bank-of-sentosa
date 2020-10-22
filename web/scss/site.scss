@@ -1,0 +1,19 @@
+@import "scss/master";
+@import "module";
+@import "forms";
+@import "pagination";
+
+html, body {
+  min-height: 100%;
+}
+
+h1 {
+  color: $text-color;
+  font-size: 1.6em;
+}
+
+.money-amount {
+  font-family: $font-family-sans-serif;
+  font-size: 20px;
+  color: $text-color;
+}

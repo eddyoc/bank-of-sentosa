@@ -1,0 +1,55 @@
+@import 'scss/vendor';
+@import 'scss/site';
+@import 'scss/master';
+@import "components/UI/Button/Button.scss";
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100%;
+}
+
+.panel-content {
+  margin: auto;
+
+  h1, h2 {
+    &:first-child {
+      margin-top: 0;
+    }
+
+    margin-left: 0.75em;
+    margin-bottom: 0.75em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    margin-left: 1em;
+  }
+}
+
+// 576px, small devices
+@include media-breakpoint-up(sm) {
+  .panel-content {
+    margin-top: 1.25rem;
+    max-width: 570px;
+  }
+}
+
+// 576px, small devices
+@include media-breakpoint-up(lg) {
+  .panel-content {
+    max-width: 980px;
+  }
+}
